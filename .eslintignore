@@ -1,0 +1,11 @@
+# big folders/build directories
+node_modules/
+build/
+.svelte-kit/
+
+# OS file settings
+desktop.ini
+.DS_Store
+
+# private files
+.env

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="uci">
+  <head>
+    <meta charset="UTF-8" />
+
+    <!-- Prevents the content from shrinking when the screen shrinks -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- add icon to tab -->
+    <link rel="icon" href="/favicon.ico" />
+
+    <!-- SEO (search engine optimization) -->
+    <title>Zotbotics Makerspace at UCI</title>
+    <meta name="description" content="Very cool robotics club at UCI" />
+
+    <!-- insert Sveltekit head content-->
+    %sveltekit.head%
+  </head>
+
+  <body>
+    <!-- add sveltekit content to a div because hydration is weird when appending directly to body -->
+    <div id="svelte-is-based">
+      <!-- insert Sveltekit body content -->
+      %sveltekit.body%
+    </div>
+  </body>
+</html>

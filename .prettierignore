@@ -1,0 +1,14 @@
+# build directories
+node_modules/
+.svelte-kit/
+build/
+
+# don't need to format assets
+static/
+
+# OS file settings
+desktop.ini
+.DS_Store
+
+# private
+.env
