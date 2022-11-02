@@ -21,7 +21,7 @@
     <ul class="menu menu-horizontal p-0">
       <li><a href="/">Join Us</a></li>
       <li on:mouseenter={on} on:mouseleave={off}>
-        <a href="/"><span>About Us</span><CaretIcon {open} class='h-4 fill-primary'/></a>
+        <a href="/"><span>About Us</span><CaretIcon {open} class="h-4 fill-primary" /></a>
         <ul class="p-2 bg-base-100 shadow">
           <li><a href="/">Contact</a></li>
           <li><a href="/">Officers</a></li>
