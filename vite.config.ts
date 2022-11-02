@@ -7,9 +7,6 @@ export default defineConfig({
   optimizeDeps: {
     include: ['@fullcalendar/common'],
   },
-  ssr: {
-    noExternal: ['@fullcalendar/common'],
-  },
   resolve: {
     dedupe: ['@fullcalendar/common'],
   },
